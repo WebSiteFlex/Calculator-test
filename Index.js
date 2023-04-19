@@ -1,40 +1,48 @@
-function sumar (){
+function addTo (){
     let num = [];
     let num2 = [];
 
-    resultado = num[0] + num2 [0];
+    result = num[0] + num2 [0];
 
-    console.log(resultado);
+    document.write(result);
 
 };
 
-function restar (){
- let num = [];
+function subtract (){
+ let num = getElementByClass("equals");
  let num2 =[];
  
-  resultado = num[0] - num2 [0];
+  result = num[0] - num2 [0];
  
-  console.log(resultado);
+
+  getElementByClass("equals");
+  
 };
 
-function dividir() {
+function divide() {
   let num = [];
   let num2 = []; 
 
-  resultado = num[0] / num2[0];
+  result = num[0] / num2[0];
   
-  console.log(resultado);
+  
+  getElementByClass("equals");
+
 };
 
-function multiplciar () {
+function multiply () {
+
 let num = [];
 let num2 = [];
 
-resultado = num[0] * num2[0];
+result = num[0] * num2[0];
 
-console.log(resultado);
 
-}; 
+getElementByClass("equals");
+
+
+}
+
 
 
 
